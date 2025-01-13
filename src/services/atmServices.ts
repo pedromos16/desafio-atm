@@ -2,7 +2,7 @@
 export const calcularCedulas = (valor: number): { [key: number]: number } => {
     const cedulas = [100, 50, 20, 10, 5, 2];
 
-    if (valor <= 0) {
+    if (!Number.isInteger(valor) || valor <= 0) {
       throw new Error('Valor inválido. Insira um número inteiro positivo.');
     }
 
