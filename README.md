@@ -145,3 +145,17 @@ A lógica para o cálculo das cédulas utiliza o algoritmo guloso e uma arquitet
 
 
 ---
+
+## Prints
+
+![1](https://github.com/user-attachments/assets/a69ca06a-8772-4ae8-91fd-b235d728f6f2)
+
+
+![2](https://github.com/user-attachments/assets/8e970f88-7bd7-4222-88b2-33cf95f9b6d4)
+
+
+
+![3](https://github.com/user-attachments/assets/311215cf-8bf0-41d5-a063-21b7bc17a5e7)
+
+
+---
