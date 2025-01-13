@@ -38,6 +38,18 @@ describe('calcularCedulas', () => {
     expect(resultado).toEqual({ 100: 0, 50: 0, 20: 0, 10: 0, 5: 1, 2: 1 });
   });
 
+  test('Deve retornar a quantidade correta de cédulas para um valor muito grande', () => {
+    const resultado = calcularCedulas(9879);
+    expect(resultado).toEqual({
+      100: 98,
+      50: 1,
+      20: 1,
+      10: 0,
+      5: 1,
+      2: 2,
+    });
+  });
+
   test('Deve retornar a quantidade correta de cédulas para valores sem cédulas intermediárias', () => {
     const resultado = calcularCedulas(200);
     expect(resultado).toEqual({ 100: 2, 50: 0, 20: 0, 10: 0, 5: 0, 2: 0 });

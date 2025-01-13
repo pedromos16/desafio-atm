@@ -16,8 +16,6 @@ export const calcularCedulas = (valor: number): { [key: number]: number } => {
     if (valor > 0) {
       throw new Error('Valor não pode ser atendido com as cédulas disponíveis.');
     }
-  
-    console.log(resultado)
 
     return resultado;
   };
